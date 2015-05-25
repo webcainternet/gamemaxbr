@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 	var i=0;
 	var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 	jQuery('.posts-grid.abc-on-thumbnail').find('li').each(function(){
-		jQuery(this).find('.thumbnail a').append('<div class="alph">'+alphabet[i]+'</div>');
+		jQuery(this).find('.thumbnail a').append(' ');
 		i++;
 	});
 

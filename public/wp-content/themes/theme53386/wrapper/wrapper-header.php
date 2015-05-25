@@ -1,8 +1,14 @@
 <?php /* Wrapper Name: Header */ ?>
 <div class="row">
-	<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
+	<div class="span12" style="width: 50%;" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
 		<?php get_template_part("static/static-logo"); ?>
 	</div>
+
+	<div style="float: right; width: 200px; background-color: red;">
+		Buscar:
+	</div>
+
+
 </div>
 <div class="nav-wrap">
 	<div class="row">
