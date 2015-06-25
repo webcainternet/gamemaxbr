@@ -106,6 +106,16 @@
 			}
 		})
 	</script>
+
+	<style type="text/css">
+	.header > .container {
+	padding: 18px 0 0;
+	}
+
+	.logo {
+	padding: 0 0 8px;
+	}
+	</style>
 </head>
 
 <body <?php body_class(); ?>>
