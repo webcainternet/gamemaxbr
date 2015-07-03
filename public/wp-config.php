@@ -1,4 +1,5 @@
 <?php
+ini_set("display_errors", 0);
 /**
  * The base configurations of the WordPress.
  *
@@ -19,16 +20,16 @@
 define('DB_NAME', 'gamemaxbr');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'gamemaxbr');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'nhf88sHHSg');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');

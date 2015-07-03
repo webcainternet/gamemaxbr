@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:85:"/Users/fernandomendes/github/gamemaxbr/public/wp-content/themes/theme53386/style.less";s:8:"compiled";s:83000:"@import url("../CherryFramework/style.css");
+a:4:{s:4:"root";s:105:"/srv/httpd/gamemaxbr.homolog.lojavirtual.digital/gamemaxbr/public/wp-content/themes/theme53386/style.less";s:8:"compiled";s:83000:"@import url("../CherryFramework/style.css");
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 .main-holder {
 	z-index:100;
@@ -2820,4 +2820,4 @@ blockquote p { line-height:22px; }
 	opacity:0;
 	filter:alpha(opacity=0);
 }
-";s:5:"files";a:4:{s:85:"/Users/fernandomendes/github/gamemaxbr/public/wp-content/themes/theme53386/style.less";i:1431836783;s:104:"/Users/fernandomendes/github/gamemaxbr/public/wp-content/themes/theme53386/bootstrap/less/variables.less";i:1431968616;s:101:"/Users/fernandomendes/github/gamemaxbr/public/wp-content/themes/theme53386/bootstrap/less/mixins.less";i:1431836783;s:116:"/Users/fernandomendes/github/gamemaxbr/public/wp-content/themes/theme53386/parallax-slider/less/parallax-slider.less";i:1431836783;}s:7:"updated";i:1431969230;}
+";s:5:"files";a:4:{s:105:"/srv/httpd/gamemaxbr.homolog.lojavirtual.digital/gamemaxbr/public/wp-content/themes/theme53386/style.less";i:1431976908;s:124:"/srv/httpd/gamemaxbr.homolog.lojavirtual.digital/gamemaxbr/public/wp-content/themes/theme53386/bootstrap/less/variables.less";i:1431974218;s:121:"/srv/httpd/gamemaxbr.homolog.lojavirtual.digital/gamemaxbr/public/wp-content/themes/theme53386/bootstrap/less/mixins.less";i:1431974218;s:136:"/srv/httpd/gamemaxbr.homolog.lojavirtual.digital/gamemaxbr/public/wp-content/themes/theme53386/parallax-slider/less/parallax-slider.less";i:1431974218;}s:7:"updated";i:1431976911;}
