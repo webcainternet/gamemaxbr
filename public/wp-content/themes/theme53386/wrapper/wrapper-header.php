@@ -16,7 +16,7 @@
 	<div style="float: right; margin-top: 35px;">
 		<input type="text" placeholder="O que você procura?" style="width: 250px; height: 40px; border: solid 1px;">
 		<input type="submit" value="Buscar" style="background-color: #7AA032; color: #000000; padding: 10px;height: 40px;
-  margin-top: -10px;  font-size: 12px; font-weight: bold;">
+  margin-top: -10px;  font-size: 12px;">
 	</div>
 
 
