@@ -62,27 +62,27 @@ if(!function_exists('optionsframework_options')) {
 
 			$options['h1_heading'] = array(
 								'id' => 'h1_heading',
-								'std' => array( 'size' => '40px', 'lineheight' => '40px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#31353d'));
+								'std' => array( 'size' => '40px', 'lineheight' => '40px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#000000'));
 
 			$options['h2_heading'] = array(
 								'id' => 'h2_heading',
-								'std' => array( 'size' => '30px', 'lineheight' => '35px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#31353d'));
+								'std' => array( 'size' => '30px', 'lineheight' => '35px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#000000'));
 
 			$options['h3_heading'] = array(
 								'id' => 'h3_heading',
-								'std' => array( 'size' => '28px', 'lineheight' => '32px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#31353d'));
+								'std' => array( 'size' => '28px', 'lineheight' => '32px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#000000'));
 
 			$options['h4_heading'] = array(
 								'id' => 'h4_heading',
-								'std' => array( 'size' => '26px', 'lineheight' => '30px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#31353d'));
+								'std' => array( 'size' => '26px', 'lineheight' => '30px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#000000'));
 
 			$options['h5_heading'] = array(
 								'id' => 'h5_heading',
-								'std' => array( 'size' => '24px', 'lineheight' => '28px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#31353d'));
+								'std' => array( 'size' => '24px', 'lineheight' => '28px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#000000'));
 
 			$options['h6_heading'] = array(
 								'id' => 'h6_heading',
-								'std' => array( 'size' => '20px', 'lineheight' => '25px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#31353d'));
+								'std' => array( 'size' => '20px', 'lineheight' => '25px', 'face' => 'Open Sans', 'style' => 'normal', 'character'  => 'latin', 'color' => '#000000'));
 
 			$options['g_search_box_id'] = array(
 								"id" => "g_search_box_id",

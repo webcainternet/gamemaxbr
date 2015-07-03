@@ -565,7 +565,7 @@ code, pre {
 	padding:0 3px 2px;
 	font-family:Monaco, Menlo, Consolas, "Courier New", monospace;
 	font-size:12px;
-	color:#31353d;
+	color:#000000;
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
@@ -620,7 +620,7 @@ legend {
 	margin-bottom:23px;
 	font-size:21px;
 	line-height:46px;
-	color:#31353d;
+	color:#000000;
 	border:0;
 	border-bottom:1px solid #e5e5e5;
 }
@@ -1272,7 +1272,7 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
 	clear:both;
 	font-weight:normal;
 	line-height:23px;
-	color:#31353d;
+	color:#000000;
 	white-space:nowrap;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
@@ -1459,7 +1459,7 @@ button.close {
 	text-align:center;
 	vertical-align:middle;
 	cursor:pointer;
-	color:#31353d;
+	color:#000000;
 	text-shadow:0 1px 1px rgba(255,255,255,0.75);
 	background-color:#f5f5f5;
 	background-image:-moz-linear-gradient(top,#fff,#e6e6e6);
@@ -1485,14 +1485,14 @@ button.close {
 	box-shadow:inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
 }
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
-	color:#31353d;
+	color:#000000;
 	background-color:#e6e6e6;
 	*background-color:#d9d9d9;
 }
 .btn:active, .btn.active { background-color:#cccccc \9; }
 .btn:first-child { *margin-left:0; }
 .btn:hover, .btn:focus {
-	color:#31353d;
+	color:#000000;
 	text-decoration:none;
 	background-position:0 -15px;
 	-webkit-transition:background-position .1s linear;
@@ -1730,7 +1730,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	background-color:transparent;
 }
 .btn-link[disabled]:hover, .btn-link[disabled]:focus {
-	color:#31353d;
+	color:#000000;
 	text-decoration:none;
 }
 .btn-group {
@@ -2223,7 +2223,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	color:#777;
 }
 .navbar-link { color:#777; }
-.navbar-link:hover, .navbar-link:focus { color:#31353d; }
+.navbar-link:hover, .navbar-link:focus { color:#000000; }
 .navbar .divider-vertical {
 	height:40px;
 	margin:0 9px;
@@ -2330,7 +2330,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .navbar .nav .dropdown-toggle .caret { margin-top:8px; }
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
 	background-color:transparent;
-	color:#31353d;
+	color:#000000;
 	text-decoration:none;
 }
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
@@ -2419,8 +2419,8 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	top:auto;
 }
 .navbar .nav li.dropdown > a:hover .caret, .navbar .nav li.dropdown > a:focus .caret {
-	border-top-color:#31353d;
-	border-bottom-color:#31353d;
+	border-top-color:#000000;
+	border-bottom-color:#000000;
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 	background-color:#e6e6e6;
@@ -2526,7 +2526,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .navbar-inverse .navbar-search .search-query::-webkit-input-placeholder { color:#ccc; }
 .navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused {
 	padding:5px 15px;
-	color:#31353d;
+	color:#000000;
 	text-shadow:0 1px 0 #fff;
 	background-color:#fff;
 	border:0;
@@ -3080,7 +3080,7 @@ a.label:hover, a.badge:hover {
 .label-success[href], .badge-success[href] { background-color:#356635; }
 .label-info, .badge-info { background-color:#3a87ad; }
 .label-info[href], .badge-info[href] { background-color:#2d6987; }
-.label-inverse, .badge-inverse { background-color:#31353d; }
+.label-inverse, .badge-inverse { background-color:#000000; }
 .label-inverse[href], .badge-inverse[href] { background-color:#1a1c21; }
 .btn .label, .btn .badge {
 	position:relative;
@@ -3357,7 +3357,7 @@ a.label:hover, a.badge:hover {
 	right:0;
 	bottom:0;
 	padding:15px;
-	background:#31353d;
+	background:#000000;
 	background:rgba(0,0,0,0.75);
 }
 .carousel-caption h4, .carousel-caption p {
