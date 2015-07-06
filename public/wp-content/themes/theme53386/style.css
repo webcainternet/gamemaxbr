@@ -45,3 +45,14 @@
     background-color: #eee!important;
     float: left;
 }
+
+.woocommerce-tabs > .tabs {
+	display: none;
+}
+
+.woocommerce-tabs > #tab-reviews {
+	display: none;
+}
+
+
+
