@@ -1695,4 +1695,7 @@ function cherry_get_post_networks( $args = array() ) {
 
 		printf( '%s', $output );
 	}
+
+	remove_action( 'woocommerce_product_tabs', 'woocommerce_product_reviews_tab', 30);
+	remove_action( 'woocommerce_product_tab_panels', 'woocommerce_product_reviews_panel', 30);
 ?>
