@@ -11,3 +11,37 @@
 /* ----------------------------------------
 	Please, You may put custom css here
 ---------------------------------------- */
+
+.woocommerce-tabs ul.tabs:before,
+.woocommerce-tabs ul.tabs li:after,
+.woocommerce-tabs ul.tabs li:before,
+.woocommerce-tabs ul.tabs li a:after,
+.woocommerce-tabs ul.tabs li a:before {
+    display: none!important;
+    box-shadow: 0 0 0 #fff!important;
+}
+.woocommerce-tabs ul.tabs,
+.woocommerce-tabs ul.tabs li,
+.woocommerce-tabs ul.tabs li a {
+    padding: 0!important;
+    margin: 0!important;
+    border: 0!important;
+    background: transparent!important;
+    box-shadow: 0 0 0 #fff!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+}
+/* SIMPLE TAB CSS */
+.woocommerce-tabs ul.tabs li {
+    background-color: #ddd!important;
+    margin: 0 0 5px 0!important;
+    float: left;
+}
+.woocommerce-tabs ul.tabs li a {
+    padding: 5px 10px!important;
+}
+.woocommerce-tabs ul.tabs li.active {
+    background-color: #eee!important;
+    float: left;
+}
