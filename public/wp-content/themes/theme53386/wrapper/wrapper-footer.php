@@ -24,7 +24,7 @@
 		
 			<div id="contato-1" class="visible-all-devices "><h4>Contato</h4>		
 				
-			[Formulario aqui]
+			[contact-form-7 id="2102" title="Contato"]
 		</div>
 
 
