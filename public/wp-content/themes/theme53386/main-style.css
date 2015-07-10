@@ -130,7 +130,7 @@ div.wpcf7 .wpcf7-form p { margin-bottom:20px; }
 div.wpcf7 .wpcf7-form p input[type="text"], div.wpcf7 .wpcf7-form p input[type="email"] {
 	padding:15px 20px;
 	margin:0;
-	height:50px;
+	height:40px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
