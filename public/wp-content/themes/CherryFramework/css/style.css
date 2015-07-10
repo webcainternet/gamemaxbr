@@ -212,7 +212,7 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
 	z-index:1;
 	padding-bottom:50px;
 }
-#content { padding-top:40px; }
+#content { padding-top:0px; }
 #content.left {
 	position:relative;
 	z-index:9;
