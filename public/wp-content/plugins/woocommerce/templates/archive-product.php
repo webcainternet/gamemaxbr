@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
-<div style="width: 100%; background-color: #FFF; margin-bottom: 50px;">
+<div style="width: 100%; background-color: #FFF; margin-bottom: 0px;">
 
 	<div style="width: 1170px; margin: auto;">
 
