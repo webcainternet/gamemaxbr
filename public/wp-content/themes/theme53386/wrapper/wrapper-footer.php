@@ -1,7 +1,11 @@
-<?php /* <div class="fb-like" data-href="https://www.facebook.com/pages/Gamemax/1453452344934315" data-width="1170" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div> */ ?>
+
 
 <?php /* Wrapper Name: Footer */ ?>
 <div class="footer-widgets">
+	<div class="row">
+		<div class="fb-like" data-href="https://www.facebook.com/pages/Gamemax/1453452344934315" data-width="1170" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
+	
 	<div class="row">
 		<div class="span3" style="width: 200px;" data-motopress-type="static" data-motopress-static-file="static/static-footer-nav.php">
 			<?php get_template_part("static/static-footer-nav"); ?>
