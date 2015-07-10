@@ -18,8 +18,11 @@
 </div>
 
 <div class="row copyright">
-	<div id="footer-text" class="footer-text">
-				Desenvolvido por <a href="http://lojavirtual.digital">Loja Virtual .digital</a> - <?php echo date('Y'); ?> © Gamemax - Todos os direitor reservados
+	<div class="span6" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
+		<?php get_template_part("static/static-footer-text"); ?>
+	</div>
+	<div class="span6" data-motopress-type="static" data-motopress-static-file="static/static-footer-nav.php">
+		<?php get_template_part("static/static-footer-nav"); ?>
 	</div>
 </div>
 
