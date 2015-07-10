@@ -1963,7 +1963,7 @@ i.circle-icon {
 	padding:0;
 }
 .footer-widgets {
-	padding:60px 0 60px;
+	padding:60px 0 0px;
 	position:relative;
 }
 @media (max-width: 767px) {
