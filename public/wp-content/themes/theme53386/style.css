@@ -58,3 +58,9 @@
 #reviews {
 	display: none;
 }
+
+
+.footer {
+    background-color: #7AA032;
+    border-top: solid 2px red;
+}
