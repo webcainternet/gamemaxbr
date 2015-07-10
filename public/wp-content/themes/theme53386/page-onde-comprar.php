@@ -7,7 +7,7 @@ get_header(); ?>
 
 <style type="text/css">
 			.active { display:inherit; }
-			ul#map {display: block; margin: 0; padding: 0; width: 570px; height: 585px; background-image: url('mapa/img/map.gif');}
+			ul#map {display: block; margin: 0; padding: 0; width: 570px; height: 585px; background-image: url('/wp-content/themes/theme53386/mapa/img/map.gif');}
 			ul#map li {display: block; padding: 0; position: absolute;}
 			li#crs {margin-top: 485px; margin-left: 237px; }
 			li#csc {margin-top: 467px; margin-left: 292px;}
@@ -75,7 +75,7 @@ get_header(); ?>
 			a#ce:hover, a#ce:active, a#pr:hover, a#pr:active, a#ac:hover, a#ac:active, a#sc:hover, a#sc:active, a#es:hover, a#es:active,
 			a#rj:hover, a#rj:active, a#pb:hover, a#pb:active, a#pe:hover, a#pe:active, a#rn:hover, a#rn:active, a#se:hover, a#se:active,
 			a#al:hover, a#al:active, a#df:hover, a#df:active
-			{ display: block; background: url('mapa/img/sprite.gif') no-repeat; }
+			{ display: block; background: url('/wp-content/themes/theme53386/mapa/img/sprite.gif') no-repeat; }
 
 			a#pa:hover, a#pa:active { background-position: -10px -0px; width: 188px; height: 187px; }
 			a#am:hover, a#am:active { background-position: -10px -197px; width: 258px; height: 181px; }
