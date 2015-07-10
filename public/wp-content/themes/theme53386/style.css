@@ -61,6 +61,6 @@
 
 
 .footer {
-    background-color: #7AA032 !important;
-    border-top: solid 2px red !important;
+    background-color: #222 !important;
+    border-top: solid 2px #7AA032 !important;
 }
