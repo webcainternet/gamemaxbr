@@ -134,6 +134,7 @@ div.wpcf7 .wpcf7-form p input[type="text"], div.wpcf7 .wpcf7-form p input[type="
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
+	width: 330px;
 }
 div.wpcf7 .wpcf7-form p input[type="text"]:focus, div.wpcf7 .wpcf7-form p input[type="email"]:focus { border-color:#242324 !important; }
 div.wpcf7 .wpcf7-form textarea {
@@ -144,6 +145,7 @@ div.wpcf7 .wpcf7-form textarea {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
+	width: 330px;
 }
 div.wpcf7 .wpcf7-form textarea:focus { border-color:#242324 !important; }
 div.wpcf7 .wpcf7-form .wpcf7-not-valid-tip {
