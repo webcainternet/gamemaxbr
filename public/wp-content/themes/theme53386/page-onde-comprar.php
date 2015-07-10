@@ -1,5 +1,3 @@
-dwqdwd
-
 <?php
 /**
 * Template Name: Fullwidth Page
@@ -10,6 +8,8 @@ get_header(); ?>
 <div class="motopress-wrapper content-holder clearfix">
 	<div class="container">
 		<div class="row">
+
+		<h1>11111
 			<div class="<?php echo cherry_get_layout_class( 'full_width_content' ); ?>" data-motopress-wrapper-file="page-fullwidth.php" data-motopress-wrapper-type="content">
 				<div class="row">
 					<div class="<?php echo cherry_get_layout_class( 'full_width_content' ); ?>" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
@@ -22,6 +22,8 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
+
+<h1>11111
 		</div>
 	</div>
 </div>
