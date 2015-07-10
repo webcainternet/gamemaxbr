@@ -2833,17 +2833,21 @@ blockquote p { line-height:22px; }
 }
 
 ::-webkit-input-placeholder {
-   color: #111;
+   color: #111 !important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #111;
+   color: #111 !important;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #111;
+   color: #111 !important;
 }
 
 :-ms-input-placeholder {  
-   color: #111;
+   color: #111 !important;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #111 !important;
 }
