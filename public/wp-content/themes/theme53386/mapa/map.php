@@ -188,7 +188,7 @@ Changelog:
 		</div>
 
 		<div style="float: left; width: 540px; background-color: #f4f5f5; margin-left: 30px;">
-			<div id="estado-sp" class="" style="padding: 30px; overflow: scroll; background-color: red;">
+			<div id="estado-sp" class="" style="padding: 30px; overflow: scroll;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">São Paulo</h1>
 				
 				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
