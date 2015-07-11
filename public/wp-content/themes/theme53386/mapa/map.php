@@ -26,7 +26,7 @@ Changelog:
 		<title>Mapa do Brasil</title>
 		<style type="text/css">
 			.active { display:inherit; }
-			ul#map {display: block; margin: 0; padding: 0; width: 570px; height: 585px; background-image: url('img/map.gif');}
+			ul#map {display: block; margin: 0; padding: 0; width: 570px; height: 585px; background-image: url('img/map.png');}
 			ul#map li {display: block; padding: 0; position: absolute;}
 			li#crs {margin-top: 485px; margin-left: 237px; }
 			li#csc {margin-top: 467px; margin-left: 292px;}
