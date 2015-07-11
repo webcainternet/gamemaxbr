@@ -518,7 +518,7 @@ div.wpcf7 .wpcf7-form .submit-wrap .input-btn { margin:0 20px 0 0; }
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item {
 	padding:5px 20px;
 	border:none;
-	text-align:center;
+	text-align:left;
 	position:relative;
 }
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item:first-child {
