@@ -18,7 +18,7 @@ get_header(); ?>
 
 				<div id="content" class="row">
 					<div>
-						<iframe src="/wp-content/themes/theme53386/mapa/map.php" width="100%" height="730" scrolling="no" frameborder="0" noresize></iframe>
+						<iframe src="/wp-content/themes/theme53386/mapa/map.php" width="100%" height="600" scrolling="no" frameborder="0" noresize></iframe>
 					</div>
 				</div>
 			</div>

@@ -21,6 +21,8 @@ Changelog:
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.2' type='text/css' media='all' />
+
 		<title>Mapa do Brasil</title>
 		<style type="text/css">
 			.active { display:inherit; }
@@ -125,39 +127,95 @@ Changelog:
 			/* Fim sprite */
 
 			ul#map li a img {border: 0; width: inherit; height: inherit;}
+
+			.titulomap {
+			  padding: 0;
+			  margin: 0;
+			  color: #31353d;
+			  text-transform: uppercase;
+			  overflow: visible;
+			  font: 300 24px/1.2em 'Open Sans', sans-serif;
+			  position: relative;
+			  width: 100%;
+			  -webkit-box-sizing: border-box;
+			  -moz-box-sizing: border-box;
+			  box-sizing: border-box;
+			}
 		</style>
+
+
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+
+		<script type="text/javascript">
+		function MostraEstado(estado) {
+			alert(estado);
+		}
+		</script>
 	</head>
 
 	<body>
-		<ul id="map">
-			<li id="crs" estado="rs"><a href="#rs" id="rs" title="RS"><img src="img/null.gif" alt="RS" /></a></li>
-			<li id="csc" estado="sc"><a href="#sc" id="sc" title="SC"><img src="img/null.gif" alt="SC" /></a></li>
-			<li id="cpr" estado="pr"><a href="#pr" id="pr" title="PR"><img src="img/null.gif" alt="PR" /></a></li>
-			<li id="csp" estado="sp"><a href="#sp" id="sp" title="SP"><img src="img/null.gif" alt="SP" /></a></li>
-			<li id="cms" estado="ms"><a href="#ms" id="ms" title="MS"><img src="img/null.gif" alt="MS" /></a></li>
-			<li id="crj" estado="rj"><a href="#rj" id="rj" title="RJ"><img src="img/null.gif" alt="RJ" /></a></li>
-			<li id="ces" estado="es"><a href="#es" id="es" title="ES"><img src="img/null.gif" alt="ES" /></a></li>
-			<li id="cmg" estado="mg"><a href="#mg" id="mg" title="MG"><img src="img/null.gif" alt="MG" /></a></li>
-			<li id="cgo" estado="go"><a href="#go" id="go" title="GO"><img src="img/null.gif" alt="GO" /></a></li>
-			<li id="cdf" estado="df"><a href="#df" id="df" title="DF"><img src="img/null.gif" alt="DF" /></a></li>
-			<li id="cba" estado="ba"><a href="#ba" id="ba" title="BA"><img src="img/null.gif" alt="BA" /></a></li>
-			<li id="cmt" estado="mt"><a href="#mt" id="mt" title="MT"><img src="img/null.gif" alt="MT" /></a></li>
-			<li id="cro" estado="ro"><a href="#ro" id="ro" title="RO"><img src="img/null.gif" alt="RO" /></a></li>
-			<li id="cac" estado="ac"><a href="#ac" id="ac" title="AC"><img src="img/null.gif" alt="AC" /></a></li>
-			<li id="cam" estado="am"><a href="#am" id="am" title="AM"><img src="img/null.gif" alt="AM" /></a></li>
-			<li id="crr" estado="rr"><a href="#rr" id="rr" title="RR"><img src="img/null.gif" alt="RR" /></a></li>
-			<li id="cpa" estado="pa"><a href="#pa" id="pa" title="PA"><img src="img/null.gif" alt="PA" /></a></li>
-			<li id="cap" estado="ap"><a href="#ap" id="ap" title="AP"><img src="img/null.gif" alt="AP" /></a></li>
-			<li id="cma" estado="ma"><a href="#ma" id="ma" title="MA"><img src="img/null.gif" alt="MA" /></a></li>
-			<li id="cto" estado="to"><a href="#to" id="to" title="TO"><img src="img/null.gif" alt="TO" /></a></li>
-			<li id="cse" estado="se"><a href="#se" id="se" title="SE"><img src="img/null.gif" alt="SE" /></a></li>
-			<li id="cal" estado="al"><a href="#al" id="al" title="AL"><img src="img/null.gif" alt="AL" /></a></li>
-			<li id="cpe" estado="pe"><a href="#pe" id="pe" title="PE"><img src="img/null.gif" alt="PE" /></a></li>
-			<li id="cpb" estado="pb"><a href="#pb" id="pb" title="PB"><img src="img/null.gif" alt="PB" /></a></li>
-			<li id="crn" estado="rn"><a href="#rn" id="rn" title="RN"><img src="img/null.gif" alt="RN" /></a></li>
-			<li id="cce" estado="ce"><a href="#ce" id="ce" title="CE"><img src="img/null.gif" alt="CE" /></a></li>
-			<li id="cpi" estado="pi"><a href="#pi" id="pi" title="PI"><img src="img/null.gif" alt="PI" /></a></li>
-		</ul>
+		<div style="float: left; width: 580px; margin-left: 30px;">
+			<ul id="map">
+				<li id="crs" estado="rs"><a onclick="MostraEstado('rs');" id="rs" title="RS"><img src="img/null.gif" alt="RS" /></a></li>
+				<li id="csc" estado="sc"><a onclick="MostraEstado('sc');" id="sc" title="SC"><img src="img/null.gif" alt="SC" /></a></li>
+				<li id="cpr" estado="pr"><a onclick="MostraEstado('pr');" id="pr" title="PR"><img src="img/null.gif" alt="PR" /></a></li>
+				<li id="csp" estado="sp"><a onclick="MostraEstado('sp');" id="sp" title="SP"><img src="img/null.gif" alt="SP" /></a></li>
+				<li id="cms" estado="ms"><a onclick="MostraEstado('ms');" id="ms" title="MS"><img src="img/null.gif" alt="MS" /></a></li>
+				<li id="crj" estado="rj"><a onclick="MostraEstado('rj');" id="rj" title="RJ"><img src="img/null.gif" alt="RJ" /></a></li>
+				<li id="ces" estado="es"><a onclick="MostraEstado('es');" id="es" title="ES"><img src="img/null.gif" alt="ES" /></a></li>
+				<li id="cmg" estado="mg"><a onclick="MostraEstado('mg');" id="mg" title="MG"><img src="img/null.gif" alt="MG" /></a></li>
+				<li id="cgo" estado="go"><a onclick="MostraEstado('go');" id="go" title="GO"><img src="img/null.gif" alt="GO" /></a></li>
+				<li id="cdf" estado="df"><a onclick="MostraEstado('df');" id="df" title="DF"><img src="img/null.gif" alt="DF" /></a></li>
+				<li id="cba" estado="ba"><a onclick="MostraEstado('ba');" id="ba" title="BA"><img src="img/null.gif" alt="BA" /></a></li>
+				<li id="cmt" estado="mt"><a onclick="MostraEstado('mt');" id="mt" title="MT"><img src="img/null.gif" alt="MT" /></a></li>
+				<li id="cro" estado="ro"><a onclick="MostraEstado('ro');" id="ro" title="RO"><img src="img/null.gif" alt="RO" /></a></li>
+				<li id="cac" estado="ac"><a onclick="MostraEstado('ac');" id="ac" title="AC"><img src="img/null.gif" alt="AC" /></a></li>
+				<li id="cam" estado="am"><a onclick="MostraEstado('am');" id="am" title="AM"><img src="img/null.gif" alt="AM" /></a></li>
+				<li id="crr" estado="rr"><a onclick="MostraEstado('rr');" id="rr" title="RR"><img src="img/null.gif" alt="RR" /></a></li>
+				<li id="cpa" estado="pa"><a onclick="MostraEstado('pa');" id="pa" title="PA"><img src="img/null.gif" alt="PA" /></a></li>
+				<li id="cap" estado="ap"><a onclick="MostraEstado('ap');" id="ap" title="AP"><img src="img/null.gif" alt="AP" /></a></li>
+				<li id="cma" estado="ma"><a onclick="MostraEstado('ma');" id="ma" title="MA"><img src="img/null.gif" alt="MA" /></a></li>
+				<li id="cto" estado="to"><a onclick="MostraEstado('to');" id="to" title="TO"><img src="img/null.gif" alt="TO" /></a></li>
+				<li id="cse" estado="se"><a onclick="MostraEstado('se');" id="se" title="SE"><img src="img/null.gif" alt="SE" /></a></li>
+				<li id="cal" estado="al"><a onclick="MostraEstado('al');" id="al" title="AL"><img src="img/null.gif" alt="AL" /></a></li>
+				<li id="cpe" estado="pe"><a onclick="MostraEstado('pe');" id="pe" title="PE"><img src="img/null.gif" alt="PE" /></a></li>
+				<li id="cpb" estado="pb"><a onclick="MostraEstado('pb');" id="pb" title="PB"><img src="img/null.gif" alt="PB" /></a></li>
+				<li id="crn" estado="rn"><a onclick="MostraEstado('rn');" id="rn" title="RN"><img src="img/null.gif" alt="RN" /></a></li>
+				<li id="cce" estado="ce"><a onclick="MostraEstado('ce');" id="ce" title="CE"><img src="img/null.gif" alt="CE" /></a></li>
+				<li id="cpi" estado="pi"><a onclick="MostraEstado('pi');" id="pi" title="PI"><img src="img/null.gif" alt="PI" /></a></li>
+			</ul>
+		</div>
+
+		<div style="float: left; width: 540px; background-color: #f4f5f5; margin-left: 30px;">
+			<div id="estado-sp" class="" style="padding: 30px; overflow: scroll; background-color: red;">
+				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">São Paulo</h1>
+				
+				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
+					<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/kalunga-1.gif'); background-size: 100%;">&nbsp;</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;">Kalunga Shopping Vila Olimpia</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">Rua Marechal, 2309, São Paulo - SP</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">+55 11 4331-0987</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">http://kalungavilaolimpia.com.br/</div>
+				</div>
+
+				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
+					<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/kalunga-1.gif'); background-size: 100%;">&nbsp;</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;">Kalunga Shopping Vila Olimpia</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">Rua Marechal, 2309, São Paulo - SP</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">+55 11 4331-0987</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">http://kalungavilaolimpia.com.br/</div>
+				</div>
+
+				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
+					<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/kalunga-1.gif'); background-size: 100%;">&nbsp;</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;">Kalunga Shopping Vila Olimpia</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">Rua Marechal, 2309, São Paulo - SP</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">+55 11 4331-0987</div>
+					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">http://kalungavilaolimpia.com.br/</div>
+				</div>
+
+			</div>
+		</div>
 	</body>
 </html>
