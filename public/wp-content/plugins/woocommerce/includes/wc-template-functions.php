@@ -1208,15 +1208,13 @@ if ( ! function_exists( 'woocommerce_breadcrumb' ) ) {
 
 		$breadcrumbs = new WC_Breadcrumb();
 
-		/*
 		if ( $args['home'] ) {
 			$breadcrumbs->add_crumb( $args['home'], apply_filters( 'woocommerce_breadcrumb_home_url', home_url() ) );
 		}
 
 		$args['breadcrumb'] = $breadcrumbs->generate();
-		*/
-		wc_get_template( 'global/breadcrumb.php', $args );
 
+		wc_get_template( 'global/breadcrumb.php', $args );
 	}
 }
 
