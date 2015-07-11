@@ -35,7 +35,7 @@ jQuery(document).ready(function(){
 			jQuery('#back-top').fadeOut();
 		}
 	});
-	jQuery('#back-top a').click(function () {
+	jQuery('a').click(function () {
 		jQuery('body,html').stop(false, false).animate({
 			scrollTop: 0
 		}, 800);
