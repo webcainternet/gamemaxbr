@@ -94,7 +94,7 @@ Changelog:
 			a#ce:hover, a#ce:active, a#pr:hover, a#pr:active, a#ac:hover, a#ac:active, a#sc:hover, a#sc:active, a#es:hover, a#es:active,
 			a#rj:hover, a#rj:active, a#pb:hover, a#pb:active, a#pe:hover, a#pe:active, a#rn:hover, a#rn:active, a#se:hover, a#se:active,
 			a#al:hover, a#al:active, a#df:hover, a#df:active
-			{ display: block; background: url('img/sprite.gif') no-repeat; }
+			{ display: block; background: url('img/sprite.png') no-repeat; }
 
 			a#pa:hover, a#pa:active { background-position: -10px -0px; width: 188px; height: 187px; }
 			a#am:hover, a#am:active { background-position: -10px -197px; width: 258px; height: 181px; }
