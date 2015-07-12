@@ -116,8 +116,6 @@
 	padding: 0 0 8px;
 	}
 	</style>
-
-	<link rel='stylesheet' id='theme53386-css-alterado'  href='/wp-content/themes/theme53386/main-style-alterado.css' type='text/css' media='all' />
 </head>
 
 <body <?php body_class(); ?>>
