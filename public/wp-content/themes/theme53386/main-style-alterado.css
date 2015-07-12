@@ -2133,7 +2133,7 @@ nav.nav.footer-nav ul li.current-menu-item a, nav.nav.footer-nav ul li a:hover {
 }
 .slider-wrap .container { width:100%; }
 @media only screen and (min-width: 1200px) {
-	.slider { margin:0 0 100px; }
+	.slider { margin:0 0 0px; }
 }
 .slider .container { width:100%; }
 @media (max-width: 767px) {
