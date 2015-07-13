@@ -14,7 +14,7 @@
   display: block;
   border: solid 1px;
   margin: 2px;
-  width: 70px;
+  width: 70px !important;
   /* height: 70px; */
   padding: 3px;
 }
