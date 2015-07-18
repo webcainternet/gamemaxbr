@@ -5,10 +5,9 @@
 	<?php if($myfooter_text){?>
 		<?php echo $myfooter_text; ?>
 	<?php } else { ?>
-		<a href="<?php echo home_url(); ?>/" title="<?php bloginfo('description'); ?>" class="site-name"><?php bloginfo('name'); ?></a> <?php echo theme_locals("powered_by"); ?> <a href="//wordpress.org">WordPress</a> <a href="<?php if ( of_get_option('feed_url') != '' ) { echo of_get_option('feed_url'); } else bloginfo('rss2_url'); ?>" rel="nofollow" title="<?php echo theme_locals('entries_rss'); ?>"><?php echo theme_locals("entries_rss"); ?></a> and <a href="<?php bloginfo('comments_rss2_url'); ?>" rel="nofollow"><?php echo theme_locals("comments_rss"); ?></a>
-		<a href="<?php echo home_url(); ?>/privacy-policy/" title="<?php echo theme_locals('privacy_policy'); ?>"><?php echo theme_locals("privacy_policy"); ?></a>
+		<?php echo date('Y'); ?> © Gamemax - Todos os direitor reservados
 	<?php } ?>
 	<?php if( is_front_page() ) { ?>
-		More <a rel="nofollow" href="http://www.templatemonster.com/category/security-wordpress-templates/" target="_blank">Security WordPress Templates at TemplateMonster.com</a>
+		<?php echo date('Y'); ?> © Gamemax - Todos os direitor reservados
 	<?php } ?>
 </div>
