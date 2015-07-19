@@ -150,7 +150,12 @@ Changelog:
 
 		<script type="text/javascript">
 		function MostraEstado(estado) {
+			EscondeDivs();
 			alert(estado);
+		}
+
+		function EscondeDivs() {
+			$("#estado-sp").hide();
 		}
 		</script>
 	</head>
