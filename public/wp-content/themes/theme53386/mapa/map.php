@@ -238,63 +238,7 @@ Changelog:
 				<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Clique no estado através do mapa para encontrar a loja mais próxima!</div>
 			</div>
 
-			<div id="estado-ol" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
-				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
-
-				<!-- BANNER loop -->
-				<?php
-					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logoid,  
-							 pmtelefone.`meta_value` as telefone, pmurl.`meta_value` as url, pmendereco.`meta_value` as endereco
-							 , urllogo.guid as logo
-							 
-							  FROM wp_posts p 
-							INNER JOIN wp_postmeta pmestado
-							ON p.id = pmestado.`post_id`
-
-							INNER JOIN wp_postmeta pmlogo
-							ON p.id = pmlogo.`post_id`
-
-							INNER JOIN wp_postmeta pmtelefone
-							ON p.id = pmtelefone.`post_id`
-
-							INNER JOIN wp_postmeta pmurl
-							ON p.id = pmurl.`post_id`
-
-							INNER JOIN wp_postmeta pmendereco
-							ON p.id = pmendereco.`post_id`
-
-							INNER JOIN wp_posts urllogo
-							ON urllogo.id = pmlogo.`meta_value`
-
-							WHERE p.post_type = \'mapa\' AND p.post_status = \'publish\' 
-
-							AND pmestado.`meta_key` = \'estado\'
-							AND pmlogo.`meta_key` = \'logo\'
-							AND pmtelefone.`meta_key` = \'telefone\'
-							AND pmurl.`meta_key` = \'url\'
-							AND pmendereco.`meta_key` = \'endereco\'
-							AND pmestado.`meta_value` = \'ol\'
-							';
-					$resultol = $conn->query($sql);
-
-					if ($resultol->num_rows > 0) {
-					    // output data of each row
-					    while($row = $resultol->fetch_assoc()) { ?>
-					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
-								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["url"]); ?></div>
-							</div>
-					    <?php }
-					} else {
-					    echo '<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Nenhum resultado encontrado para este estado!</div>';
-					}
-				?>
-				<!-- FIM - loop -->
-
-			</div>
+			
 
 
 			<div id="estado-ac" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
@@ -1887,6 +1831,64 @@ Changelog:
 				?>
 				<!-- FIM - loop -->
 
+
+			</div>
+
+			<div id="estado-ol" class="" style="padding: 30px; overflow: scroll; height: 600px;">
+				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
+
+				<!-- BANNER loop -->
+				<?php
+					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logoid,  
+							 pmtelefone.`meta_value` as telefone, pmurl.`meta_value` as url, pmendereco.`meta_value` as endereco
+							 , urllogo.guid as logo
+							 
+							  FROM wp_posts p 
+							INNER JOIN wp_postmeta pmestado
+							ON p.id = pmestado.`post_id`
+
+							INNER JOIN wp_postmeta pmlogo
+							ON p.id = pmlogo.`post_id`
+
+							INNER JOIN wp_postmeta pmtelefone
+							ON p.id = pmtelefone.`post_id`
+
+							INNER JOIN wp_postmeta pmurl
+							ON p.id = pmurl.`post_id`
+
+							INNER JOIN wp_postmeta pmendereco
+							ON p.id = pmendereco.`post_id`
+
+							INNER JOIN wp_posts urllogo
+							ON urllogo.id = pmlogo.`meta_value`
+
+							WHERE p.post_type = \'mapa\' AND p.post_status = \'publish\' 
+
+							AND pmestado.`meta_key` = \'estado\'
+							AND pmlogo.`meta_key` = \'logo\'
+							AND pmtelefone.`meta_key` = \'telefone\'
+							AND pmurl.`meta_key` = \'url\'
+							AND pmendereco.`meta_key` = \'endereco\'
+							AND pmestado.`meta_value` = \'ol\'
+							';
+					$resultol = $conn->query($sql);
+
+					if ($resultol->num_rows > 0) {
+					    // output data of each row
+					    while($row = $resultol->fetch_assoc()) { ?>
+					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
+								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["url"]); ?></div>
+							</div>
+					    <?php }
+					} else {
+					    echo '<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Nenhum resultado encontrado para este estado!</div>';
+					}
+				?>
+				<!-- FIM - loop -->
 
 			</div>
 
