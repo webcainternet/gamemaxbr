@@ -192,7 +192,7 @@ Changelog:
 			<?php 
 				include '../../../../wp-config.php';
 				// Create connection
-				mysql_set_charset('utf-8');
+				mysqli_set_charset('utf-8');
 				$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 				// Check connection
 				if ($conn->connect_error) {
