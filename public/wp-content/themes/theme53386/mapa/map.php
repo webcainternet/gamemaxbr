@@ -241,11 +241,11 @@ Changelog:
 					    // output data of each row
 					    while($row = $result->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
-								<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/<?php echo $row["logo"]; ?>'); background-size: 100%;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo $row["titulo"]; ?></div>
+								<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100%;">&nbsp;</div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo $row["telefone"]; ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo $row["url"]; ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["url"]); ?></div>
 							</div>
 					    <?php }
 					} else {
