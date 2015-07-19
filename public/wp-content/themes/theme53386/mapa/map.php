@@ -207,7 +207,11 @@ Changelog:
 
 				<!-- BANNER loop -->
 				<?php
-					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logo, pmtelefone.`meta_value` as telefone, pmurl.`meta_value` as url, pmendereco.`meta_value` as endereco FROM wp_posts p 
+					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logoid,  
+							 pmtelefone.`meta_value` as telefone, pmurl.`meta_value` as url, pmendereco.`meta_value` as endereco
+							 , urllogo.guid as logo
+							 
+							  FROM wp_posts p 
 							INNER JOIN wp_postmeta pmestado
 							ON p.id = pmestado.`post_id`
 
@@ -223,6 +227,8 @@ Changelog:
 							INNER JOIN wp_postmeta pmendereco
 							ON p.id = pmendereco.`post_id`
 
+							INNER JOIN wp_posts urllogo
+							ON urllogo.id = pmlogo.`meta_value`
 
 							WHERE p.post_type = \'mapa\' AND p.post_status = \'publish\' 
 
@@ -231,8 +237,6 @@ Changelog:
 							AND pmtelefone.`meta_key` = \'telefone\'
 							AND pmurl.`meta_key` = \'url\'
 							AND pmendereco.`meta_key` = \'endereco\'
-
-
 							AND pmestado.`meta_value` = \'sp\'
 							';
 					$result = $conn->query($sql);
