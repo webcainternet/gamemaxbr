@@ -235,14 +235,14 @@ Changelog:
 			    }
 			?>
 
-			<div id="estado-start" class="" style="padding: 30px; overflow: scroll; height: 600px;">
+			<div id="estado-start" class="" style="padding: 30px;  ">
 				<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Clique no estado através do mapa para encontrar a loja mais próxima!</div>
 			</div>
 
-			
+			<div style="height: 600px; overflow: scroll;">
 
 
-			<div id="estado-ac" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ac" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Acre</h1>
 
 				<!-- BANNER loop -->
@@ -301,7 +301,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-al" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-al" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Alagoas</h1>
 
 				<!-- BANNER loop -->
@@ -360,7 +360,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-ap" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ap" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Amapá</h1>
 
 				<!-- BANNER loop -->
@@ -419,7 +419,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-am" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-am" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Amazonas</h1>
 
 				<!-- BANNER loop -->
@@ -478,7 +478,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-ba" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ba" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Bahia</h1>
 
 				<!-- BANNER loop -->
@@ -537,7 +537,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-ce" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ce" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Ceará</h1>
 
 				<!-- BANNER loop -->
@@ -596,7 +596,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-df" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-df" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Distrito Federal</h1>
 
 				<!-- BANNER loop -->
@@ -655,7 +655,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-es" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-es" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Espírito Santo</h1>
 
 				<!-- BANNER loop -->
@@ -714,7 +714,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-go" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-go" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Goiás</h1>
 
 				<!-- BANNER loop -->
@@ -773,7 +773,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-ma" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ma" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Maranhão</h1>
 
 				<!-- BANNER loop -->
@@ -832,7 +832,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-mt" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-mt" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Mato Grosso</h1>
 
 				<!-- BANNER loop -->
@@ -891,7 +891,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-ms" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ms" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Mato Grosso do Sul</h1>
 
 				<!-- BANNER loop -->
@@ -950,7 +950,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-mg" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-mg" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Minas Gerais</h1>
 
 				<!-- BANNER loop -->
@@ -1009,7 +1009,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-pa" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-pa" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Pará</h1>
 
 				<!-- BANNER loop -->
@@ -1068,7 +1068,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-pb" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-pb" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Paraíba</h1>
 
 				<!-- BANNER loop -->
@@ -1127,7 +1127,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-pr" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-pr" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Paraná</h1>
 
 				<!-- BANNER loop -->
@@ -1186,7 +1186,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-pe" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-pe" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Pernambuco</h1>
 
 				<!-- BANNER loop -->
@@ -1245,7 +1245,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-pi" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-pi" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Piauí</h1>
 
 				<!-- BANNER loop -->
@@ -1304,7 +1304,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-rj" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-rj" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Rio de Janeiro</h1>
 
 				<!-- BANNER loop -->
@@ -1363,7 +1363,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-rn" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-rn" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Rio Grande do Norte</h1>
 
 				<!-- BANNER loop -->
@@ -1422,7 +1422,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-rs" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-rs" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Rio Grande do Sul</h1>
 
 				<!-- BANNER loop -->
@@ -1481,7 +1481,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-ro" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-ro" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Rondônia</h1>
 
 				<!-- BANNER loop -->
@@ -1540,7 +1540,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-rr" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-rr" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Roraima</h1>
 
 				<!-- BANNER loop -->
@@ -1599,7 +1599,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-sc" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-sc" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Santa Catarina</h1>
 
 				<!-- BANNER loop -->
@@ -1658,7 +1658,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-sp" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-sp" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">São Paulo</h1>
 
 				<!-- BANNER loop -->
@@ -1717,7 +1717,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-se" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-se" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Sergipe</h1>
 
 				<!-- BANNER loop -->
@@ -1776,7 +1776,7 @@ Changelog:
 			</div>
 
 
-			<div id="estado-to" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
+			<div id="estado-to" class="" style="padding: 30px;   display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Tocantins</h1>
 
 				<!-- BANNER loop -->
@@ -1835,7 +1835,7 @@ Changelog:
 
 			</div>
 
-			<div id="estado-ol" class="" style="padding: 30px; overflow: scroll; height: 600px;">
+			<div id="estado-ol" class="" style="padding: 30px;  ">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
 
 				<!-- BANNER loop -->
@@ -1892,7 +1892,7 @@ Changelog:
 				<!-- FIM - loop -->
 
 			</div>
-
+			</div>
 
 			<?php $conn->close(); ?>
 		</div>
