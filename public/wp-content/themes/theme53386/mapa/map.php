@@ -153,6 +153,7 @@ Changelog:
 		function MostraEstado(estado) {
 			EscondeDivs();
 			$("#estado-"+estado).show();
+			$("#estado-ol").show();
 		}
 
 		function EscondeDivs() {
