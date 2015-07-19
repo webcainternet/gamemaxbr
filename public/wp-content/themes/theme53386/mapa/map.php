@@ -157,6 +157,33 @@ Changelog:
 
 		function EscondeDivs() {
 			$("#estado-sp").hide();
+			$("#estado-ac").hide();
+			$("#estado-al").hide();
+			$("#estado-ap").hide();
+			$("#estado-am").hide();
+			$("#estado-ba").hide();
+			$("#estado-ce").hide();
+			$("#estado-df").hide();
+			$("#estado-es").hide();
+			$("#estado-go").hide();
+			$("#estado-ma").hide();
+			$("#estado-mt").hide();
+			$("#estado-ms").hide();
+			$("#estado-mg").hide();
+			$("#estado-pa").hide();
+			$("#estado-pb").hide();
+			$("#estado-pr").hide();
+			$("#estado-pe").hide();
+			$("#estado-pi").hide();
+			$("#estado-rj").hide();
+			$("#estado-rn").hide();
+			$("#estado-rs").hide();
+			$("#estado-ro").hide();
+			$("#estado-rr").hide();
+			$("#estado-sc").hide();
+			$("#estado-sp").hide();
+			$("#estado-se").hide();
+			$("#estado-to").hide();
 		}
 		</script>
 	</head>
