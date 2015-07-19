@@ -184,6 +184,7 @@ Changelog:
 			$("#estado-sp").hide();
 			$("#estado-se").hide();
 			$("#estado-to").hide();
+			$("#estado-start").hide();
 		}
 		</script>
 	</head>
@@ -233,6 +234,9 @@ Changelog:
 			    }
 			?>
 
+			<div id="estado-start" class="" style="padding: 30px; overflow: scroll; height: 600px;">
+				<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Clique no estado através do mapa para encontrar a loja mais próxima!</div>
+			</div>
 
 			<div id="estado-ol" class="" style="padding: 30px; overflow: scroll; height: 600px; display: none;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
