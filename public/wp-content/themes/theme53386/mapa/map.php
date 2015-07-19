@@ -187,35 +187,76 @@ Changelog:
 			</ul>
 		</div>
 
-		<div style="float: left; width: 540px; background-color: #f4f5f5; margin-left: 30px;">
-			<div id="estado-sp" class="" style="padding: 30px; overflow: scroll;">
+		<div style="float: left; width: 540px; overflow:scroll; background-color: #f4f5f5; margin-left: 30px;">
+			<?php 
+				include '../../../../wp-config.php';
+				// Create connection
+				$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+				// Check connection
+				if ($conn->connect_error) {
+				    die("Connection failed: " . $conn->connect_error);
+			    }
+			?>
+
+
+			<!-- São Paulo -->
+			<div id="estado-sp" class="" style="padding: 30px; overflow: scroll; height: 600px;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">São Paulo</h1>
-				
-				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
-					<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/kalunga-1.gif'); background-size: 100%;">&nbsp;</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;">Kalunga Shopping Vila Olimpia</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">Rua Marechal, 2309, São Paulo - SP</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">+55 11 4331-0987</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">http://kalungavilaolimpia.com.br/</div>
-				</div>
 
-				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
-					<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/kalunga-1.gif'); background-size: 100%;">&nbsp;</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;">Kalunga Shopping Vila Olimpia</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">Rua Marechal, 2309, São Paulo - SP</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">+55 11 4331-0987</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">http://kalungavilaolimpia.com.br/</div>
-				</div>
+				<!-- BANNER loop -->
+				<?php
+					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logo, pmtelefone.`meta_value` as telefone, pmurl.`meta_value` as url, pmendereco.`meta_value` as endereco FROM wp_posts p 
+							INNER JOIN wp_postmeta pmestado
+							ON p.id = pmestado.`post_id`
 
-				<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
-					<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/kalunga-1.gif'); background-size: 100%;">&nbsp;</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;">Kalunga Shopping Vila Olimpia</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">Rua Marechal, 2309, São Paulo - SP</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">+55 11 4331-0987</div>
-					<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;">http://kalungavilaolimpia.com.br/</div>
-				</div>
+							INNER JOIN wp_postmeta pmlogo
+							ON p.id = pmlogo.`post_id`
+
+							INNER JOIN wp_postmeta pmtelefone
+							ON p.id = pmtelefone.`post_id`
+
+							INNER JOIN wp_postmeta pmurl
+							ON p.id = pmurl.`post_id`
+
+							INNER JOIN wp_postmeta pmendereco
+							ON p.id = pmendereco.`post_id`
+
+
+							WHERE p.post_type = \'mapa\' AND p.post_status = \'publish\' 
+
+							AND pmestado.`meta_key` = \'estado\'
+							AND pmlogo.`meta_key` = \'logo\'
+							AND pmtelefone.`meta_key` = \'telefone\'
+							AND pmurl.`meta_key` = \'url\'
+							AND pmendereco.`meta_key` = \'endereco\'
+
+
+							AND pmestado.`meta_value` = \'sp\'
+							';
+					$result = $conn->query($sql);
+
+					if ($result->num_rows > 0) {
+					    // output data of each row
+					    while($row = $result->fetch_assoc()) { ?>
+					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
+								<div style="float: left; width: 100px; height: 100px; background-image: url('/wp-content/themes/theme53386/images/<?php echo $row["logo"]; ?>'); background-size: 100%;">&nbsp;</div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo $row["titulo"]; ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo $row["endereco"]; ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo $row["telefone"]; ?></div>
+								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 12px 'Open Sans', sans-serif; color: #333;"><?php echo $row["url"]; ?></div>
+							</div>
+					    <?php }
+					} else {
+					    echo '<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Nenhum resultado encontrado para este estado!';
+					}
+				?>
+				<!-- FIM - loop -->
 
 			</div>
+			<!-- FIM São Paulo -->
+
+
+			<?php $conn->close(); ?>
 		</div>
 	</body>
 </html>
