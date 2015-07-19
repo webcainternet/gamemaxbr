@@ -152,7 +152,7 @@ Changelog:
 		<script type="text/javascript">
 		function MostraEstado(estado) {
 			EscondeDivs();
-			alert(estado);
+			$("#estado-"+estado).show();
 		}
 
 		function EscondeDivs() {
