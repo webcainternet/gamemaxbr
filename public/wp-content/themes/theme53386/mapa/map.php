@@ -236,7 +236,7 @@ Changelog:
 			    }
 			?>
 
-			<div id="estado-start" class="" style="padding: 30px;  ">
+			<div id="estado-start" class="" style="padding: 30px;   padding-bottom: 0px; ">
 				<div style="font: 14px \'Open Sans\', sans-serif; color: #333;">Clique no estado através do mapa para encontrar a loja mais próxima!</div>
 			</div>
 
@@ -1836,7 +1836,7 @@ Changelog:
 
 			</div>
 
-			<div id="estado-ol" class="" style="padding: 30px;   display: none;">
+			<div id="estado-ol" class="" style="padding: 30px;">
 				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
 
 				<!-- BANNER loop -->
