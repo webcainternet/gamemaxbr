@@ -286,10 +286,10 @@ Changelog:
 					    while($row = $resultac->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -345,10 +345,10 @@ Changelog:
 					    while($row = $resultal->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -404,10 +404,10 @@ Changelog:
 					    while($row = $resultap->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -463,10 +463,10 @@ Changelog:
 					    while($row = $resultam->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -522,10 +522,10 @@ Changelog:
 					    while($row = $resultba->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -581,10 +581,10 @@ Changelog:
 					    while($row = $resultce->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -640,10 +640,10 @@ Changelog:
 					    while($row = $resultdf->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -699,10 +699,10 @@ Changelog:
 					    while($row = $resultes->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -758,10 +758,10 @@ Changelog:
 					    while($row = $resultgo->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -817,10 +817,10 @@ Changelog:
 					    while($row = $resultma->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -876,10 +876,10 @@ Changelog:
 					    while($row = $resultmt->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -935,10 +935,10 @@ Changelog:
 					    while($row = $resultms->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -994,10 +994,10 @@ Changelog:
 					    while($row = $resultmg->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1053,10 +1053,10 @@ Changelog:
 					    while($row = $resultpa->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1112,10 +1112,10 @@ Changelog:
 					    while($row = $resultpb->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1171,10 +1171,10 @@ Changelog:
 					    while($row = $resultpr->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1230,10 +1230,10 @@ Changelog:
 					    while($row = $resultpe->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1289,10 +1289,10 @@ Changelog:
 					    while($row = $resultpi->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1348,10 +1348,10 @@ Changelog:
 					    while($row = $resultrj->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1407,10 +1407,10 @@ Changelog:
 					    while($row = $resultrn->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1466,10 +1466,10 @@ Changelog:
 					    while($row = $resultrs->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1525,10 +1525,10 @@ Changelog:
 					    while($row = $resultro->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1584,10 +1584,10 @@ Changelog:
 					    while($row = $resultrr->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1643,10 +1643,10 @@ Changelog:
 					    while($row = $resultsc->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1702,10 +1702,10 @@ Changelog:
 					    while($row = $result->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1761,10 +1761,10 @@ Changelog:
 					    while($row = $resultse->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1820,10 +1820,10 @@ Changelog:
 					    while($row = $resultto->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1879,9 +1879,9 @@ Changelog:
 					    while($row = $resultol->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; margin-bottom: 30px; height: 145px; border-bottom: #AAA dotted 1px;">
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 10px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
