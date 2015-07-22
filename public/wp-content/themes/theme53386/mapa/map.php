@@ -220,7 +220,7 @@ Changelog:
 				<li id="cce" estado="ce"><a onclick="MostraEstado('ce');" id="ce" title="CE"><img src="img/null.gif" alt="CE" /></a></li>
 				<li id="cpi" estado="pi"><a onclick="MostraEstado('pi');" id="pi" title="PI"><img src="img/null.gif" alt="PI" /></a></li>
 			</ul>
-			<a href="" onclick="MostraEstado('ol');" id="ol" title="OL" style="margin-top: -40px; font: 14px \'Open Sans\', sans-serif; color: #333; float: right;">Lojas Online</a>
+			<a onclick="MostraEstado('ol');" id="ol" title="OL" style="margin-top: -40px; font: 14px \'Open Sans\', sans-serif; color: #333; float: right;">Lojas Online</a>
 		</div>
 
 		<div style="float: left; width: 540px; overflow:scroll; background-color: #f4f5f5; margin-left: 30px;">
