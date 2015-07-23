@@ -3,7 +3,7 @@
 <?php /* Wrapper Name: Footer */ ?>
 <div class="footer-widgets">
 	<div class="row" style="margin-left: 0px; margin-bottom: 60px;">
-		<div class="fb-like" data-href="https://www.facebook.com/lojavirtual.digital" data-width="1130" data-height="300" data-layout="standard" data-colorscheme="dark" data-action="like" data-show-faces="true" data-share="true" data-header="false" data-stream="false" data-show-border="false"></div>
+		<div class="fb-like" data-href="https://www.facebook.com/gamemaxbr" data-width="1130" data-height="300" data-layout="standard" data-colorscheme="dark" data-action="like" data-show-faces="true" data-share="true" data-header="false" data-stream="false" data-show-border="false"></div>
 	</div>
 
 	<div class="row">
