@@ -137,6 +137,7 @@ Changelog:
 			  overflow: visible;
 			  font: 300 24px/1.2em 'Open Sans', sans-serif;
 			  position: relative;
+			  text-transform: uppercase;
 			  width: 100%;
 			  -webkit-box-sizing: border-box;
 			  -moz-box-sizing: border-box;
@@ -289,7 +290,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -348,7 +349,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -407,7 +408,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -466,7 +467,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -525,7 +526,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -584,7 +585,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -643,7 +644,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -702,7 +703,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -761,7 +762,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -820,7 +821,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -879,7 +880,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -938,7 +939,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -997,7 +998,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1056,7 +1057,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1115,7 +1116,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1174,7 +1175,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1233,7 +1234,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1292,7 +1293,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1351,7 +1352,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1410,7 +1411,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1469,7 +1470,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1528,7 +1529,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1587,7 +1588,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1646,7 +1647,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1705,7 +1706,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1764,7 +1765,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1823,7 +1824,7 @@ Changelog:
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
@@ -1881,7 +1882,7 @@ Changelog:
 								<div style="float: left; width: 100px; height: 100px; background-image: url('<?php echo utf8_encode($row["logo"]); ?>'); background-size: 100% auto; background-repeat: no-repeat;">&nbsp;</div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
-								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>"><?php echo utf8_encode($row["url"]); ?></a></div>
+								<div style="float: left; margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
 					    <?php }
 					} else {
