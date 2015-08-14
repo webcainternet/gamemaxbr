@@ -2082,7 +2082,7 @@ nav.nav.footer-nav ul li.current-menu-item a, nav.nav.footer-nav ul li a:hover {
 	font:300 15px/1.2em 'Open Sans', sans-serif;
 	color:#6c7485;
 	text-transform:none;
-	text-align:left;
+	text-align: center;
 	float:none;
 	margin:0;
 }
