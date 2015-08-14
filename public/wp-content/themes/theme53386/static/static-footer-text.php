@@ -8,7 +8,5 @@
 	<?php } ?>
 	<?php if( is_front_page() ) { ?>
 		<?php echo date('Y'); ?> © Gamemax - Todos os direitor reservados
-	<?php } else ?>
-		<?php echo date('Y'); ?> © Gamemax - Todos os direitor reservados
 	<?php } ?>
 </div>
