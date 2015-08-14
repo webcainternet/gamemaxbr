@@ -33,6 +33,8 @@
 </div>
 <div class="row copyright">
 	<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
-		<?php get_template_part("static/static-footer-text"); ?>
+		<div id="footer-text" class="footer-text">
+			<?php echo date('Y'); ?> © Gamemax - Todos os direitor reservados
+		</div>
 	</div>
 </div>
