@@ -286,7 +286,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultac->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -345,7 +345,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultal->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -404,7 +404,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultap->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -463,7 +463,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultam->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -522,7 +522,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultba->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -581,7 +581,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultce->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -640,7 +640,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultdf->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -699,7 +699,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultes->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -758,7 +758,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultgo->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -817,7 +817,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultma->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -876,7 +876,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultmt->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -935,7 +935,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultms->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -994,7 +994,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultmg->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1053,7 +1053,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultpa->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1112,7 +1112,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultpb->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1171,7 +1171,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultpr->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1230,7 +1230,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultpe->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1289,7 +1289,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultpi->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1348,7 +1348,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultrj->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1407,7 +1407,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultrn->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1466,7 +1466,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultrs->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1525,7 +1525,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultro->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1584,7 +1584,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultrr->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1643,7 +1643,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultsc->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1702,7 +1702,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $result->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1761,7 +1761,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultse->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1820,7 +1820,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultto->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["endereco"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
@@ -1879,7 +1879,7 @@ Changelog:
 					    // output data of each row
 					    while($row = $resultol->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
-								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="width: 180px;"></div>
+								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
