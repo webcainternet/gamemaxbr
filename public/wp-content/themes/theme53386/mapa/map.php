@@ -1837,8 +1837,6 @@ Changelog:
 			</div>
 
 			<div id="estado-ol" class="" style="padding: 30px;">
-				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
-
 				<!-- BANNER loop -->
 				<?php
 					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logoid,  
