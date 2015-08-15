@@ -24,7 +24,7 @@
 <div class="nav-wrap">
 	<div class="row">
 		<div class="<?php echo cherry_get_layout_class( 'full_width_content' ); ?>" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
-			<?php get_template_part("static/static-nav"); ?>
+			<?php //get_template_part("static/static-nav"); ?> 22222
 		</div>
 	</div>
 </div>
