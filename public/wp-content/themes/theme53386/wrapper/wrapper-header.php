@@ -27,7 +27,7 @@
 			<?php
 				$contentmenu = get_template_part("static/static-nav");
 				$bodytag = str_replace('<a href="#contato">', '<a href="#contato" onclick="jQuery(\'body,html\').stop(false, false).animate({scrollTop: 1800}, 800);">', $contentmenu);
-				echo $contentmenu;
+				echo "<pre>".$contentmenu."</pre>";
 			?>
 		</div>
 	</div>
