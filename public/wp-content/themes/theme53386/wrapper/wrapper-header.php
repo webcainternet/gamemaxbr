@@ -26,7 +26,8 @@
 		<div class="<?php echo cherry_get_layout_class( 'full_width_content' ); ?>" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
 			<?php
 				$contentmenu = get_template_part("static/static-nav");
-				echo "dwdw".$contentmenu;
+				$bodytag = str_replace('<a href="#contato">', '<a href="#contato" onclick="jQuery(\'body,html\').stop(false, false).animate({scrollTop: 1800}, 800);">', $contentmenu);
+				echo $contentmenu;
 			?>
 		</div>
 	</div>
