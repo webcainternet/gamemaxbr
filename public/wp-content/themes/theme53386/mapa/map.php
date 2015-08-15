@@ -1837,6 +1837,7 @@ Changelog:
 			</div>
 
 			<div id="estado-ol" class="" style="padding: 30px;">
+				<h1 class="titulomap" style="width: 100%; margin-bottom: 20px;">Lojas Online</h1>
 				<!-- BANNER loop -->
 				<?php
 					$sql = 'SELECT p.id, p.post_title as titulo, pmestado.meta_value as estado, pmlogo.`meta_value` as logoid,  
@@ -1878,7 +1879,6 @@ Changelog:
 					    while($row = $resultol->fetch_assoc()) { ?>
 					    	<div style="padding-top: 15px; padding-bottom: 15px; border-bottom: #AAA dotted 1px;">
 								<div style="margin: 0px 10px 0px 10px;"><img src="<?php echo utf8_encode($row["logo"]); ?>" style="max-width: 185px; max-height: 90px;"></div>
-								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["titulo"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><?php echo utf8_encode($row["telefone"]); ?></div>
 								<div style="margin: 0px 10px 0px 10px; width: 350px; font: 14px 'Open Sans', sans-serif; color: #333;"><a href="<?php echo utf8_encode($row["url"]); ?>" target="_blank"><?php echo utf8_encode($row["url"]); ?></a></div>
 							</div>
