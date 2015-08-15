@@ -2,14 +2,15 @@
 <!-- BEGIN MAIN NAVIGATION -->
 <nav class="nav nav__primary clearfix">
 <?php if (has_nav_menu('header_menu')) {
-	/*wp_nav_menu( array(
+	$contentmenu = wp_nav_menu( array(
 		'container'      => 'ul',
 		'menu_class'     => 'sf-menu',
 		'menu_id'        => 'topnav',
 		'depth'          => 0,
 		'theme_location' => 'header_menu',
 		'walker'         => new description_walker()
-	)); */ echo "dwdwdw";
+	)); echo "dwdwdw";
+	
 } else {
 	echo '<ul class="sf-menu">';
 		$ex_page = get_page_by_title( 'Privacy Policy' );
