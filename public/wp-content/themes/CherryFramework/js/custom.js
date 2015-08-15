@@ -195,8 +195,8 @@ function deleteCookie(name) {
 // ---------------------------------------------------------
 // Go to Contato
 // ---------------------------------------------------------
-jQuery('#menu-item-2130 a').click(function () {
-		jQuery('body,html').stop(false, false).animate({scrollTop: 1800}, 800);
-		alert('dqwdwdd');
-		return false;
-	});
+jQuery('#menu-item-2130').click(function () {
+	jQuery('body,html').stop(false, false).animate({scrollTop: 1800}, 800);
+	alert('dqwdwdd');
+	return false;
+});
