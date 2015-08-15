@@ -24,6 +24,7 @@
 			'exclude'  => $ex_page_id
 			)
 		);
+		echo '<li id="menu-item-21300" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#contato" onclick="jQuery(\'body,html\').stop(false, false).animate({scrollTop: 1800}, 800);">Contato</a></li>';
 	echo '</ul>';
 } ?>
 </nav><!-- END MAIN NAVIGATION -->
