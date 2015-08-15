@@ -192,3 +192,10 @@ function createCookie(name, value, days) {
 function deleteCookie(name) {
 	createCookie( name, "", { expires: -1 } );
 }
+// ---------------------------------------------------------
+// Go to Contato
+// ---------------------------------------------------------
+jQuery('#menu-item-2130 a').click(function () {
+		jQuery('body,html').stop(false, false).animate({scrollTop: 1800}, 800);
+		return false;
+	});
