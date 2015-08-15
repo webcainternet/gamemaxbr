@@ -197,5 +197,6 @@ function deleteCookie(name) {
 // ---------------------------------------------------------
 jQuery('#menu-item-2130 a').click(function () {
 		jQuery('body,html').stop(false, false).animate({scrollTop: 1800}, 800);
+		alert('dqwdwdd');
 		return false;
 	});
